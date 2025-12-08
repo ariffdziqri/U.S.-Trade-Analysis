@@ -1,0 +1,239 @@
+---
+title: "dc_sample_report"
+output: html_document
+date: "2025-10-24"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+packages <- c(
+  "tidyverse", "ggplot2", "countrycode", "shiny", "bslib", 
+  "rsconnect", "plm", "patchwork", "lmtest", "sandwich", 
+  "glmnet", "lmerTest", "clubSandwich", "broom"
+)
+
+# Loop through each package
+for (p in packages) {
+  # Check if the package is NOT installed
+  if (!require(p, character.only = TRUE)) {
+    # If not installed, print a message and install it
+    message(paste("Installing package:", p))
+    install.packages(p, dependencies = TRUE)
+  }
+  # Load the package regardless of whether it was just installed or already existed
+  library(p, character.only = TRUE)
+}
+```
+
+```{r, include=FALSE}
+df <- read_csv("df_cleaned.csv")
+cpi_gdp <- read_csv("CPI_GDP.csv")
+```
+
+## **1. Introduction and Motivation**. 
+The analysis explores patterns in U.S. trade with partner countries, aiming to understand both cross-country and within-country determinants of trade volume.
+Specifically, it investigates two main questions:  
+How do U.S. trade volumes differ across regions and countries?  
+What country-specific factors help explain changes in U.S. exports over time?  
+Initial visualizations reveal that U.S. trade values vary substantially across continents and countries. This motivates a more formal statistical approach to determine whether regional groupings alone can explain trade differences, or if additional economic and political characteristics play a stronger role.
+
+```{r, echo=FALSE}
+top_10_NX <- df %>% group_by(Country) %>% 
+  summarise(total_NX = sum(total_exports, na.rm = TRUE)) %>% 
+  arrange(-total_NX) %>% 
+  head(10)
+
+df %>% filter(Country %in% top_10_NX$Country) %>% 
+  group_by(Year, Country) %>% 
+  summarise(yearly_NX = sum(total_exports, na.rm = TRUE)) %>% 
+  ggplot(aes(Year, yearly_NX)) +
+  geom_line(aes(color = Country, group = Country)) +
+  facet_wrap(~reorder(Country, -yearly_NX)) +
+  labs(title = "Yearly Exports of top 10 trade paertners over time",
+       y = "Net Exports") +
+  theme(
+    axis.text.x = element_text(angle = 90)
+  )
+```
+
+## **2. Hypothesis Test: Do Countries within the Same Region Differ?**
+We begin by testing whether average U.S. trade volumes are equal across countries within each region.  
+Null hypothesis (H₀): Each country’s mean U.S. net exports equal its regional mean.  
+Alternative hypothesis (H₁): At least one country differs significantly from its regional mean.  
+
+
+```{r,echo=FALSE}
+region_means <- df %>%
+  group_by(Continent) %>%
+  summarise(mean_region = mean(total_exports, na.rm = TRUE))
+
+test_df <- df %>%
+  left_join(region_means, by = "Continent")
+
+ttest_results <- test_df %>%
+  group_by(Continent, Country) %>%
+  summarise(
+    t_test = list(t.test(total_exports, mu = unique(mean_region))),
+    .groups = "drop"
+  ) %>%
+  mutate(tidy_res = purrr::map(t_test, broom::tidy)) %>%
+  unnest(tidy_res) %>%
+  select(Continent, Country, estimate, statistic, p.value)
+
+ttest_results %>% filter(p.value < 0.05) %>% head(5)
+```
+
+
+The results reject the null (p < 0.05 for many countries), indicating substantial heterogeneity within regions.
+For example, within Africa, Botswana shows significantly higher U.S. trade intensity than the regional average, while Burkina Faso and Comoros are substantially lower. This suggests that regional averages mask strong country-level variation, motivating a country-specific panel model.
+
+
+## **3. Data Construction and Panel Setup**
+To explore these differences, a panel dataset was constructed at the country × commodity × year level.
+Variables were sourced from the World Bank, U.S. trade statistics, and supplementary databases:
+
+| Variable           | Description                        | Notes                |
+| ------------------ | ---------------------------------- | -------------------- |
+| `sum_EX`, `sum_IM` | Total U.S. exports/imports (USD)   | Nominal value        |
+| `Population`       | Partner-country population         | Log-transformed      |
+| `GDP`              | Gross Domestic Product             | USD, current prices  |
+| `politic_rank`     | Political stability index          | Higher = more stable |
+| `capital_distance` | Distance from Washington D.C. (km) | Time-invariant       |
+| `CPI_Annual`       | Consumer Price Index               | Used for deflation   |
+
+```{r,include=FALSE}
+country_NX <- df %>% select(-c(Population, politic_rank)) %>% 
+  group_by(Country, Commodity, Year) %>% 
+  summarise(sum_IM = sum(total_imports, na.rm = TRUE), sum_EX = sum(total_exports, na.rm = TRUE))
+  
+pop_politic <- df %>% select(Year, Country, capital_distance, Population, politic_rank) %>% unique
+
+model_df <- country_NX %>% left_join(pop_politic) %>% arrange(Country, Year)
+model_df <- model_df %>% left_join(cpi_gdp) %>% mutate(real_EX = sum_EX / CPI_Annual * 100,
+         real_IM = sum_IM / CPI_Annual * 100)
+model_df <- pdata.frame(model_df, index = c("Country", "Commodity", "Year")) %>%
+  mutate(across(c(Population, politic_rank), scale)) %>% arrange(Country, Commodity, Year)
+
+model_df <- model_df %>%
+  mutate(country_commodity = interaction(Country, Commodity, drop = TRUE))
+pdata <- pdata.frame(model_df,
+                     index = c("country_commodity", "Year"))
+```
+
+```{r, echo=FALSE}
+pdata %>% head(2)
+```
+
+
+This structure allows for both within-country variation over time and cross-country differences. For instance, we can examine whether growth in a country’s population or political stability corresponds to increased U.S. exports to that market.
+
+## **4. Fixed-Effects Model: Within-Country Determinants**
+To study how changes inside a country relate to changes in U.S. exports to that country, we estimate a country fixed-effects model:
+
+$$
+Exports_{it} = \alpha_i + \beta_1 Population_{it} + \beta_2 PoliticRank_{it} + \varepsilon_{it}
+$$	
+where αi​	captures each country’s baseline trade potential with the U.S.
+
+**Result Summary**
+```{r, echo=FALSE}
+fe_plm <- plm(
+  sum_EX ~ Population + politic_rank + capital_distance + factor(Commodity),
+  data   = pdata,
+  model  = "within",
+  effect = "individual"
+)
+
+
+coeftest(fe_plm, vcov = vcovSCC(fe_plm, type = "HC1"))
+```
+
+Results (exports as the dependent variable):  
+Population: Positive and statistically significant. As a country’s population grows, U.S. exports to that country tend to rise.  
+Interpretation: bigger market → more demand for U.S. goods.  
+Political stability: Negative and significant in this specification. One interpretation is that as some countries stabilize and mature, they may substitute U.S. imports with more domestic production or alternative suppliers. Another interpretation is that the U.S. sometimes exports more aggressively into less-stable but rapidly growing markets. This effect will weaken once we add controls.  
+Residual plots for this model show non-constant variance across countries and some non-normality, indicating heteroskedasticity. We address this in Section 6.
+
+## **5. Random-Effects Model:**
+Fixed effects are great for causal interpretation of within-country changes, but they drop time-invariant variables. In trade, one of the most important time-invariant factors is distance.  
+To bring distance in, we estimate a random-effects (RE) model:
+
+$$
+Exports_{it} = \alpha + u_i + \beta_1 Population_{it} + \beta_2 PoliticRank_{it} + \beta_3 CapitalDistance_i + \varepsilon_{it}
+$$
+ui is a random country-specific intercept.  
+CapitalDistance enters here because it does not change over time and would be absorbed by fixed effects.  
+We also include commodity-category controls so that we’re comparing trade within similar product classes rather than mixing, say, raw agricultural goods with aircraft parts.
+
+```{r,echo=FALSE}
+re_plm <- plm(
+  sum_EX ~ Population + politic_rank + capital_distance + factor(Commodity),
+  data   = pdata,
+  model  = "random",
+  effect = "individual"
+)
+re_test <- coeftest(re_plm, vcov = vcovHC(re_plm, type = "HC1", cluster = "group"))
+
+re_tidy <- tidy(re_test)
+
+# filter to show only the main regressors
+re_tidy %>%
+  filter(term %in% c("Population", "politic_rank", "capital_distance"))
+```
+
+
+
+Key findings:  
+Population: Still positive. Larger / growing markets tend to import more from the U.S.  
+Capital distance: Strongly negative. Countries farther from the United States trade less with the U.S., holding market size constant. This matches standard gravity-model logic: trade falls with distance due to shipping cost, logistics frictions, and weaker supply-chain integration.  
+Political stability: Once population and distance are included, stability becomes much weaker as a direct predictor of U.S. exports. That suggests stability may work indirectly (through GDP growth, investment climate, etc.) rather than directly determining trade flows.  
+Economically, this tells a consistent story: U.S. export intensity scales with market size and decays with distance.
+
+
+## **6. Model Diagnostics and Robustness**. 
+The fixed-effects model assumes each country can have its own baseline level of trade with the U.S. and does not assume that baseline is “unrelated” to the regressors.  
+The random-effects model is more efficient, but only if the country-specific effect is not correlated with the regressors. We formally compare the two using a Hausman test:  
+Null (RE is valid): The unobserved country component is uncorrelated with the regressors → random effects is consistent. Alternative (FE preferred): The unobserved country component is correlated with the regressors → only fixed effects is consistent.  
+In our data, the Hausman test rejects the null (p < 0.05). This means there is evidence that country-specific unobservables are correlated with things like population and political stability. In plain language: “who the country is” is not random.  
+Implication:  
+We treat the fixed-effects model as the primary causal specification for interpreting within-country changes.  
+We use the random-effects / gravity model as a complementary descriptive model that allows us to analyze the role of time-invariant drivers like distance.
+
+
+```{r,echo=FALSE}
+phtest(fe_plm, re_plm)
+```
+
+
+
+## **7. Diagnostics and Inference**
+We ran diagnostics primarily on the fixed-effects model, since Hausman indicates that is our main consistent estimator.  Findings:  
+Heteroskedasticity: Residual variance differs across countries and over time.  
+Non-normal residuals: Residuals are skewed for some country-years, suggesting occasional large shocks (e.g. one-off defense or energy contracts).  
+Within-country correlation: Errors within a country can be correlated over time.  
+Response:  
+We report heteroskedasticity-robust standard errors clustered at the country level.  
+Clustering lets each country have its own error variance pattern and serial correlation.  
+We also compared naive vs robust standard errors for key variables (Population, Distance) and found that significance and sign remained stable. So the main conclusions are not driven by fragile inference.
+
+
+## **8. Interpretation**
+Putting the models together: 
+
+**1. Market size matters.**. 
+Within a given country, as its population increases, U.S. exports to that country tend to increase. The U.S. sells more into larger and growing markets.
+
+
+**2. Geography still matters.**. 
+Even after controlling for market size and product category, physical distance from Washington, D.C. is strongly negatively related to export value. Distance is still a friction in global trade.
+
+
+**3. Political stability is secondary.**
+Stability shows significance in the simple fixed-effects model but weakens once we control for market size and distance. This suggests that “being politically stable” alone doesn’t guarantee strong U.S. trade flows if the country is small or far away. Instead, stability may operate through other channels (e.g. it helps GDP grow, which then drives imports).  Policy-wise: The U.S. tends to export most to large, nearby, integrated economies. Distance and scale still dominate.
+
+
+## **10. Conclusion**
+We find evidence consistent with a gravity model of trade: U.S. exports are higher to partners that are (i) larger markets and (ii) closer in distance. Political stability alone is not a dominant predictor once market size and distance are considered.
+
+
+The Hausman test indicates that fixed effects are the appropriate main specification for inference, since unobserved country traits are correlated with observed regressors. Random effects are still useful descriptively because they allow us to include time-invariant distance and see the classic distance penalty.

@@ -1,0 +1,1351 @@
+Commodity,flow,series_id
+111 Agricultural Products,export,1
+111 Agricultural Products,import,2
+1111 Oilseeds & Grains,export,3
+1111 Oilseeds & Grains,import,4
+11111 Soybeans,export,5
+11111 Soybeans,import,6
+111110 Soybeans,export,7
+111110 Soybeans,import,8
+11112 Oilseeds (except Soybean),export,9
+11112 Oilseeds (except Soybean),import,10
+111120 Oilseeds (except Soybean),export,11
+111120 Oilseeds (except Soybean),import,12
+11113 Dry Peas & Beans,export,13
+11113 Dry Peas & Beans,import,14
+111130 Dry Peas & Beans,export,15
+111130 Dry Peas & Beans,import,16
+11114 Wheat,export,17
+11114 Wheat,import,18
+111140 Wheat,export,19
+111140 Wheat,import,20
+11115 Corn,export,21
+11115 Corn,import,22
+111150 Corn,export,23
+111150 Corn,import,24
+11119 Other Grains,export,25
+11119 Other Grains,import,26
+111199 Other Grains,export,27
+111199 Other Grains,import,28
+1112 Vegetables & Melons,export,29
+1112 Vegetables & Melons,import,30
+11121 Vegetables & Melons,export,31
+11121 Vegetables & Melons,import,32
+111211 Potatoes,export,33
+111211 Potatoes,import,34
+111219 Other Vegetables (except Potatoes) And Melons,export,35
+111219 Other Vegetables (except Potatoes) And Melons,import,36
+1113 Fruits & Tree Nuts,export,37
+1113 Fruits & Tree Nuts,import,38
+11131 Oranges,export,39
+11131 Oranges,import,40
+111310 Oranges,export,41
+111310 Oranges,import,42
+11132 Citrus Fruits (except Oranges),export,43
+11132 Citrus Fruits (except Oranges),import,44
+111320 Citrus Fruits (except Oranges),export,45
+111320 Citrus Fruits (except Oranges),import,46
+11133 Noncitrus Fruits & Tree Nuts,export,47
+11133 Noncitrus Fruits & Tree Nuts,import,48
+111331 Apples,export,49
+111331 Apples,import,50
+111332 Grapes,export,51
+111332 Grapes,import,52
+111333 Strawberries,export,53
+111333 Strawberries,import,54
+111334 Berries (except Strawberries),export,55
+111334 Berries (except Strawberries),import,56
+111335 Tree Nuts,export,57
+111335 Tree Nuts,import,58
+111339 Other Noncitrus Fruits,export,59
+111339 Other Noncitrus Fruits,import,60
+"1114 Mushrooms, Nursery & Related Products",export,61
+"1114 Mushrooms, Nursery & Related Products",import,62
+11141 Mushrooms,export,63
+11141 Mushrooms,import,64
+111411 Mushrooms,export,65
+111411 Mushrooms,import,66
+"11142 Nursery Products, Flowers, Seeds & Foliage",export,67
+"11142 Nursery Products, Flowers, Seeds & Foliage",import,68
+111421 Nursery Products & Trees,export,69
+111421 Nursery Products & Trees,import,70
+"111422 Fresh Flowers, Seeds & Foliage",export,71
+"111422 Fresh Flowers, Seeds & Foliage",import,72
+1119 Other Agricultural Products,export,73
+1119 Other Agricultural Products,import,74
+11191 Tobacco,export,75
+11191 Tobacco,import,76
+111910 Tobacco,export,77
+111910 Tobacco,import,78
+"11194 Hay, Alfalfa Hay, And Clover",export,79
+"11194 Hay, Alfalfa Hay, And Clover",import,80
+"111940 Hay, Alfalfa Hay, And Clover",export,81
+"111940 Hay, Alfalfa Hay, And Clover",import,82
+11199 All Other Agricultural Products,export,83
+11199 All Other Agricultural Products,import,84
+111998 Other Miscellaneous Agricultural Products,export,85
+111998 Other Miscellaneous Agricultural Products,import,86
+112 Livestock & Livestock Products,export,87
+112 Livestock & Livestock Products,import,88
+1121 Cattle,export,89
+1121 Cattle,import,90
+1122 Swine,export,91
+1122 Swine,import,92
+11221 Swine,export,93
+11221 Swine,import,94
+112210 Swine,export,95
+112210 Swine,import,96
+1123 Poultry & Eggs,export,97
+1123 Poultry & Eggs,import,98
+1123X Poultry And Eggs,export,99
+1123X Poultry And Eggs,import,100
+1123XX Poultry And Eggs,export,101
+1123XX Poultry And Eggs,import,102
+"1124 Sheep, Goats & Fine Animal Hair",export,103
+"1124 Sheep, Goats & Fine Animal Hair",import,104
+11241 Sheep & Wool,export,105
+11241 Sheep & Wool,import,106
+112410 Sheep & Wool,export,107
+112410 Sheep & Wool,import,108
+1125 Farmed Fish And Related Products,export,109
+1125 Farmed Fish And Related Products,import,110
+11251 Farmed Fish & Related Products,export,111
+11251 Farmed Fish & Related Products,import,112
+"112511 Fish, Farmed",export,113
+"112511 Fish, Farmed",import,114
+"112512 Shellfish, Farmed",export,115
+"112512 Shellfish, Farmed",import,116
+1129 Other Animals,export,117
+1129 Other Animals,import,118
+11291 Bees & Honey,export,119
+11291 Bees & Honey,import,120
+112910 Bees & Honey,export,121
+112910 Bees & Honey,import,122
+11292 Horses & Other Equine,export,123
+11292 Horses & Other Equine,import,124
+112920 Horses & Other Equine,export,125
+112920 Horses & Other Equine,import,126
+"11293 Rabbits, Foxes, Furskins & Cuttings",export,127
+"11293 Rabbits, Foxes, Furskins & Cuttings",import,128
+"112930 Rabbits, Foxes, Furskins, & Cuttings",export,129
+"112930 Rabbits, Foxes, Furskins, & Cuttings",import,130
+11299 All Other Live Animals,export,131
+11299 All Other Live Animals,import,132
+112990 All Other Live Animals,export,133
+112990 All Other Live Animals,import,134
+"113 Forestry Products, Nesoi",export,135
+"113 Forestry Products, Nesoi",import,136
+1132 Forestry Products,export,137
+1132 Forestry Products,import,138
+11321 Forestry Products,export,139
+11321 Forestry Products,import,140
+113210 Forestry Products,export,141
+113210 Forestry Products,import,142
+1133 Timber & Logs,export,143
+1133 Timber & Logs,import,144
+11331 Timber & Logs,export,145
+11331 Timber & Logs,import,146
+113310 Timber & Logs,export,147
+113310 Timber & Logs,import,148
+"114 Fish, Fresh/chilled/frozen & Other Marine Products",export,149
+"114 Fish, Fresh/chilled/frozen & Other Marine Products",import,150
+"1141 Fish, Fresh/chilled/frozen & Other Marine Products",export,151
+"1141 Fish, Fresh/chilled/frozen & Other Marine Products",import,152
+"11411 Fish, Fresh/chilled/frozen & Other Marine Products",export,153
+"11411 Fish, Fresh/chilled/frozen & Other Marine Products",import,154
+114111 Finfish Fresh/chilled/frozen; Finfish Products,export,155
+114111 Finfish Fresh/chilled/frozen; Finfish Products,import,156
+114112 Shellfish Fresh/chilled/frozen; Shellfish Products,export,157
+114112 Shellfish Fresh/chilled/frozen; Shellfish Products,import,158
+114119 Other Marine Products,export,159
+114119 Other Marine Products,import,160
+211 Oil & Gas,export,161
+211 Oil & Gas,import,162
+2111 Oil & Gas,export,163
+2111 Oil & Gas,import,164
+212 Minerals & Ores,export,165
+212 Minerals & Ores,import,166
+2121 Coal & Petroleum Gases,export,167
+2121 Coal & Petroleum Gases,import,168
+21211 Coal,export,169
+21211 Coal,import,170
+2122 Metal Ores,export,171
+2122 Metal Ores,import,172
+21221 Iron Ores,export,173
+21221 Iron Ores,import,174
+212210 Iron Ores,export,175
+212210 Iron Ores,import,176
+21229 Other Metal Ores,export,177
+21229 Other Metal Ores,import,178
+2123 Nonmetallic Minerals,export,179
+2123 Nonmetallic Minerals,import,180
+21231 Stone,export,181
+21231 Stone,import,182
+212311 Dimension Stone,export,183
+212311 Dimension Stone,import,184
+212312 Limestone,export,185
+212312 Limestone,import,186
+212319 Other Crushed & Broken Stone,export,187
+212319 Other Crushed & Broken Stone,import,188
+21232 Sand/gravel/clay/refractory Minerals,export,189
+21232 Sand/gravel/clay/refractory Minerals,import,190
+212321 Construction Sand And Gravel,export,191
+212321 Construction Sand And Gravel,import,192
+212322 Industrial Sand,export,193
+212322 Industrial Sand,import,194
+21239 Other Nonmetallic Minerals,export,195
+21239 Other Nonmetallic Minerals,import,196
+311 Food & Kindred Products,export,197
+311 Food & Kindred Products,import,198
+3111 Animal Foods,export,199
+3111 Animal Foods,import,200
+31111 Animal Foods,export,201
+31111 Animal Foods,import,202
+311111 Dog & Cat Foods,export,203
+311111 Dog & Cat Foods,import,204
+311119 Other Animal Foods,export,205
+311119 Other Animal Foods,import,206
+3112 Grain & Oilseed Milling Products,export,207
+3112 Grain & Oilseed Milling Products,import,208
+31121 Flour & Malt,export,209
+31121 Flour & Malt,import,210
+311211 Flour & Other Grain Mill Products,export,211
+311211 Flour & Other Grain Mill Products,import,212
+311212 Milled Rice & By-products,export,213
+311212 Milled Rice & By-products,import,214
+311213 Malts,export,215
+311213 Malts,import,216
+31122 Starch & Vegetable Fats & Oils,export,217
+31122 Starch & Vegetable Fats & Oils,import,218
+311221 Wet Corn Milling Products,export,219
+311221 Wet Corn Milling Products,import,220
+311224 Soybean Oil & Other Oilseed,export,221
+311224 Soybean Oil & Other Oilseed,import,222
+311225 Margarine & Edible Fats & Oils,export,223
+311225 Margarine & Edible Fats & Oils,import,224
+31123 Breakfast Cereals,export,225
+31123 Breakfast Cereals,import,226
+311230 Breakfast Cereals,export,227
+311230 Breakfast Cereals,import,228
+3113 Sugar & Confectionery Products,export,229
+3113 Sugar & Confectionery Products,import,230
+31131 Sugars,export,231
+31131 Sugars,import,232
+31131X Sugars,export,233
+31131X Sugars,import,234
+31134 Nonchocolate Confectionery Products,export,235
+31134 Nonchocolate Confectionery Products,import,236
+311340 Nonchocolate Confectionery Products,export,237
+311340 Nonchocolate Confectionery Products,import,238
+31135 Chocolate And Confectionery,export,239
+31135 Chocolate And Confectionery,import,240
+31135X Chocolate And Confectionery From Cacao Beans Produ,export,241
+31135X Chocolate And Confectionery From Cacao Beans Produ,import,242
+3114 Fruits & Veg Preserves & Specialty Foods,export,243
+3114 Fruits & Veg Preserves & Specialty Foods,import,244
+31141 Frozen Foods,export,245
+31141 Frozen Foods,import,246
+"311411 Frozen Fruits, Juices & Vegetables",export,247
+"311411 Frozen Fruits, Juices & Vegetables",import,248
+311412 Frozen Specialty Food,export,249
+311412 Frozen Specialty Food,import,250
+31142 Fruits & Vegetables,export,251
+31142 Fruits & Vegetables,import,252
+311421 Fruits & Vegetables Preserved,export,253
+311421 Fruits & Vegetables Preserved,import,254
+311422 Specialty Canned Foods,export,255
+311422 Specialty Canned Foods,import,256
+311423 Dried & Dehydrated Foods,export,257
+311423 Dried & Dehydrated Foods,import,258
+3115 Dairy Products,export,259
+3115 Dairy Products,import,260
+31151 Dairy Products (exc Frozen),export,261
+31151 Dairy Products (exc Frozen),import,262
+"311511 Fluid Milk, Cream & Related Products",export,263
+"311511 Fluid Milk, Cream & Related Products",import,264
+311512 Creamery Butter,export,265
+311512 Creamery Butter,import,266
+311513 Cheese,export,267
+311513 Cheese,import,268
+"311514 Dry, Condensed, And Evaporated Dairy Products",export,269
+"311514 Dry, Condensed, And Evaporated Dairy Products",import,270
+31152 Ice Cream & Frozen Desserts,export,271
+31152 Ice Cream & Frozen Desserts,import,272
+311520 Ice Cream & Frozen Desserts,export,273
+311520 Ice Cream & Frozen Desserts,import,274
+3116 Meat Products & Meat Packaging Products,export,275
+3116 Meat Products & Meat Packaging Products,import,276
+31161 Meat Products & Meat Packaging Products,export,277
+31161 Meat Products & Meat Packaging Products,import,278
+311611 Meat Products (exc Poultry),export,279
+311611 Meat Products (exc Poultry),import,280
+"311613 Animal Fats, Oils & By-products",export,281
+"311613 Animal Fats, Oils & By-products",import,282
+"311615 Poultry, Prepared Or Preserved",export,283
+"311615 Poultry, Prepared Or Preserved",import,284
+"3117 Seafood Prods, Prepared, Canned & Packaged",export,285
+"3117 Seafood Prods, Prepared, Canned & Packaged",import,286
+"31171 Seafood Prods, Prepared, Canned & Packaged",export,287
+"31171 Seafood Prods, Prepared, Canned & Packaged",import,288
+"311710 Seafood Prods, Prepared, Canned & Packaged",export,289
+"311710 Seafood Prods, Prepared, Canned & Packaged",import,290
+3118 Bakery & Tortilla Products,export,291
+3118 Bakery & Tortilla Products,import,292
+31181 Bread & Bakery Products,export,293
+31181 Bread & Bakery Products,import,294
+31181X Bread & Bakery Products,export,295
+31181X Bread & Bakery Products,import,296
+"31182 Flour Mixes, Dough & Pasta",export,297
+"31182 Flour Mixes, Dough & Pasta",import,298
+"311824 Dry Pasta, Dough, And Flour Mixes From Purch Flour",export,299
+"311824 Dry Pasta, Dough, And Flour Mixes From Purch Flour",import,300
+"3119 Foods, Nesoi",export,301
+"3119 Foods, Nesoi",import,302
+31191 Snack Foods,export,303
+31191 Snack Foods,import,304
+311911 Roasted Nuts & Peanut Butter,export,305
+311911 Roasted Nuts & Peanut Butter,import,306
+311919 Other Snack Foods,export,307
+311919 Other Snack Foods,import,308
+31192 Coffee & Tea,export,309
+31192 Coffee & Tea,import,310
+311920 Coffee & Tea,export,311
+311920 Coffee & Tea,import,312
+31193 Flavoring Extracts & Syrups,export,313
+31193 Flavoring Extracts & Syrups,import,314
+311930 Flavoring Extracts & Syrups,export,315
+311930 Flavoring Extracts & Syrups,import,316
+"31194 Seasonings, Dressings & Other Prep'd Sauces",export,317
+"31194 Seasonings, Dressings & Other Prep'd Sauces",import,318
+"311941 Mayonnaise, Dressings & Oth Prepared Sauces",export,319
+"311941 Mayonnaise, Dressings & Oth Prepared Sauces",import,320
+311942 Spices & Extracts,export,321
+311942 Spices & Extracts,import,322
+"31199 Other Foods, Nesoi",export,323
+"31199 Other Foods, Nesoi",import,324
+311991 Perishable Prepared Food,export,325
+311991 Perishable Prepared Food,import,326
+"311999 Other Foods, Nesoi",export,327
+"311999 Other Foods, Nesoi",import,328
+312 Beverages & Tobacco Products,export,329
+312 Beverages & Tobacco Products,import,330
+3121 Beverages,export,331
+3121 Beverages,import,332
+31211 Soft Drinks & Ices,export,333
+31211 Soft Drinks & Ices,import,334
+312111 Soft Drinks,export,335
+312111 Soft Drinks,import,336
+312112 Bottled Waters,export,337
+312112 Bottled Waters,import,338
+312113 Ice,export,339
+312113 Ice,import,340
+31212 Malt & Beer,export,341
+31212 Malt & Beer,import,342
+312120 Malt And Beer,export,343
+312120 Malt And Beer,import,344
+"31213 Wines, Brandy, And Brandy Spirits",export,345
+"31213 Wines, Brandy, And Brandy Spirits",import,346
+"312130 Wines, Brandy, And Brandy Spirits",export,347
+"312130 Wines, Brandy, And Brandy Spirits",import,348
+31214 Distilled Liquors,export,349
+31214 Distilled Liquors,import,350
+312140 Distilled Liquors,export,351
+312140 Distilled Liquors,import,352
+3122 Tobacco Products,export,353
+3122 Tobacco Products,import,354
+31223 Tobacco Products,export,355
+31223 Tobacco Products,import,356
+312230 Tobacco Or Cigarette  Products,export,357
+312230 Tobacco Or Cigarette  Products,import,358
+313 Textiles & Fabrics,export,359
+313 Textiles & Fabrics,import,360
+"3131 Fibers, Yarns & Threads",export,361
+"3131 Fibers, Yarns & Threads",import,362
+"31311 Fibers, Yarns & Threads",export,363
+"31311 Fibers, Yarns & Threads",import,364
+"313110 Fibers, Yarns, & Threads",export,365
+"313110 Fibers, Yarns, & Threads",import,366
+3132 Fabrics,export,367
+3132 Fabrics,import,368
+31321 Broadwoven Fabrics,export,369
+31321 Broadwoven Fabrics,import,370
+313210 Broadwoven Fabrics,export,371
+313210 Broadwoven Fabrics,import,372
+31322 Narrow Fabrics,export,373
+31322 Narrow Fabrics,import,374
+313220 Narrow Fabrics & Schiffli Machine Embroidery,export,375
+313220 Narrow Fabrics & Schiffli Machine Embroidery,import,376
+31323 Nonwoven Fabrics,export,377
+31323 Nonwoven Fabrics,import,378
+313230 Nonwoven Fabrics,export,379
+313230 Nonwoven Fabrics,import,380
+31324 Knit Fabrics & Lace,export,381
+31324 Knit Fabrics & Lace,import,382
+313240 Knit Fabrics,export,383
+313240 Knit Fabrics,import,384
+3133 Finished & Coated Textile Fabrics,export,385
+3133 Finished & Coated Textile Fabrics,import,386
+31332 Coated Fabrics,export,387
+31332 Coated Fabrics,import,388
+313320 Coated Fabrics,export,389
+313320 Coated Fabrics,import,390
+314 Textile Mill Products,export,391
+314 Textile Mill Products,import,392
+3141 Textile Furnishings,export,393
+3141 Textile Furnishings,import,394
+31411 Carpets & Rugs,export,395
+31411 Carpets & Rugs,import,396
+314110 Carpets & Rugs,export,397
+314110 Carpets & Rugs,import,398
+31412 Curtains & Linens,export,399
+31412 Curtains & Linens,import,400
+314120 Curtains And Linens,export,401
+314120 Curtains And Linens,import,402
+3149 Other Textile Products,export,403
+3149 Other Textile Products,import,404
+31491 Textile Bags & Canvas,export,405
+31491 Textile Bags & Canvas,import,406
+314910 Textile Bags & Canvas,export,407
+314910 Textile Bags & Canvas,import,408
+31499 All Other Textile Products,export,409
+31499 All Other Textile Products,import,410
+"314994 Rope, Cordage, Twine, Tire Cord, & Tire Fabric",export,411
+"314994 Rope, Cordage, Twine, Tire Cord, & Tire Fabric",import,412
+314999 All Other Miscellaneous Textile Products,export,413
+314999 All Other Miscellaneous Textile Products,import,414
+315 Apparel & Accessories,export,415
+315 Apparel & Accessories,import,416
+3151 Knit Apparel,export,417
+3151 Knit Apparel,import,418
+3152 Apparel,export,419
+3152 Apparel,import,420
+3159 Apparel Accessories,export,421
+3159 Apparel Accessories,import,422
+31599 Apparel Accessories,export,423
+31599 Apparel Accessories,import,424
+315990 Apparel Accessories & Other Apparel,export,425
+315990 Apparel Accessories & Other Apparel,import,426
+316 Leather & Allied Products,export,427
+316 Leather & Allied Products,import,428
+3161 Leather & Hide Tanning,export,429
+3161 Leather & Hide Tanning,import,430
+31611 Leather & Hide Tanning,export,431
+31611 Leather & Hide Tanning,import,432
+316110 Leather & Hide Tanning,export,433
+316110 Leather & Hide Tanning,import,434
+3162 Footwear,export,435
+3162 Footwear,import,436
+31621 Footwear,export,437
+31621 Footwear,import,438
+316210 Footwear,export,439
+316210 Footwear,import,440
+3169 Other Leather Products,export,441
+3169 Other Leather Products,import,442
+31699 Other Leather Products,export,443
+31699 Other Leather Products,import,444
+321 Wood Products,export,445
+321 Wood Products,import,446
+3211 Sawmill & Wood Products,export,447
+3211 Sawmill & Wood Products,import,448
+32111 Sawmill & Wood Products,export,449
+32111 Sawmill & Wood Products,import,450
+321113 Sawmill Products,export,451
+321113 Sawmill Products,import,452
+"321114 Treated Wood Products, Nesoi",export,453
+"321114 Treated Wood Products, Nesoi",import,454
+"3212 Veneer, Plywood & Engineered Wood Products",export,455
+"3212 Veneer, Plywood & Engineered Wood Products",import,456
+"32121 Veneer, Plywood & Engineered Wood Products",export,457
+"32121 Veneer, Plywood & Engineered Wood Products",import,458
+321211 Hardwood Veneer & Plywood,export,459
+321211 Hardwood Veneer & Plywood,import,460
+321212 Softwood Veneer & Plywood,export,461
+321212 Softwood Veneer & Plywood,import,462
+321219 Reconstituted Wood Products,export,463
+321219 Reconstituted Wood Products,import,464
+3219 Other Wood Products,export,465
+3219 Other Wood Products,import,466
+32191 Millwork,export,467
+32191 Millwork,import,468
+321911 Wood Windows & Doors,export,469
+321911 Wood Windows & Doors,import,470
+321918 Other Millwork (including Flooring),export,471
+321918 Other Millwork (including Flooring),import,472
+32192 Wood Containers & Pallets,export,473
+32192 Wood Containers & Pallets,import,474
+321920 Wood Containers & Pallets,export,475
+321920 Wood Containers & Pallets,import,476
+32199 All Other Wood Products,export,477
+32199 All Other Wood Products,import,478
+321992 Prefabricated Wood Buildings,export,479
+321992 Prefabricated Wood Buildings,import,480
+321999 Miscellaneous Wood Products,export,481
+321999 Miscellaneous Wood Products,import,482
+322 Paper,export,483
+322 Paper,import,484
+"3221 Pulp, Paper & Paperboard Mill Products",export,485
+"3221 Pulp, Paper & Paperboard Mill Products",import,486
+32211 Pulp Mill Products,export,487
+32211 Pulp Mill Products,import,488
+322110 Pulp Mill Products,export,489
+322110 Pulp Mill Products,import,490
+32212 Paper Mill Products,export,491
+32212 Paper Mill Products,import,492
+32213 Paperboard Mill Products,export,493
+32213 Paperboard Mill Products,import,494
+322130 Paperboard Mill Products,export,495
+322130 Paperboard Mill Products,import,496
+3222 Converted Paper Products,export,497
+3222 Converted Paper Products,import,498
+32221 Paperboard Containers,export,499
+32221 Paperboard Containers,import,500
+322211 Corrugated & Solid Fiber Boxes,export,501
+322211 Corrugated & Solid Fiber Boxes,import,502
+322212 Folding Paperboard Boxes,export,503
+322212 Folding Paperboard Boxes,import,504
+322219 Other Paperboard Containers,export,505
+322219 Other Paperboard Containers,import,506
+32222 Paper Bags & Coated & Treated Paper,export,507
+32222 Paper Bags & Coated & Treated Paper,import,508
+322220 Paper Bag & Coated & Treated Paper,export,509
+322220 Paper Bag & Coated & Treated Paper,import,510
+32223 Stationery Products,export,511
+32223 Stationery Products,import,512
+322230 Stationery Products,export,513
+322230 Stationery Products,import,514
+32229 Other Converted Paper Products,export,515
+32229 Other Converted Paper Products,import,516
+322291 Sanitary Paper Products,export,517
+322291 Sanitary Paper Products,import,518
+322299 All Other Converted Paper Products,export,519
+322299 All Other Converted Paper Products,import,520
+"323 Printed Matter And Related Products, Nesoi",export,521
+"323 Printed Matter And Related Products, Nesoi",import,522
+"3231 Printed Matter And Related Products, Nesoi",export,523
+"3231 Printed Matter And Related Products, Nesoi",import,524
+32311 Print And Stationery Articles,export,525
+32311 Print And Stationery Articles,import,526
+323111 Commercial Printing (except Screen And Books),export,527
+323111 Commercial Printing (except Screen And Books),import,528
+"323117 Printed Books, Brochures & Similar Printed Matter",export,529
+"323117 Printed Books, Brochures & Similar Printed Matter",import,530
+32312 Printing Preparation Products,export,531
+32312 Printing Preparation Products,import,532
+"323120 Printing Type, Plates, Cylinders, Etc, Nesoi",export,533
+"323120 Printing Type, Plates, Cylinders, Etc, Nesoi",import,534
+324 Petroleum & Coal Products,export,535
+324 Petroleum & Coal Products,import,536
+3241 Petroleum & Coal Products,export,537
+3241 Petroleum & Coal Products,import,538
+32411 Petroleum Refinery Products,export,539
+32411 Petroleum Refinery Products,import,540
+324110 Petroleum Refinery Products,export,541
+324110 Petroleum Refinery Products,import,542
+32412 Asphalt Paving Mixtures,export,543
+32412 Asphalt Paving Mixtures,import,544
+324121 Asphalt Paving Mixtures,export,545
+324121 Asphalt Paving Mixtures,import,546
+324122 Asphalt Shingle & Coating Materials,export,547
+324122 Asphalt Shingle & Coating Materials,import,548
+32419 Other Petroleum And Coal Products,export,549
+32419 Other Petroleum And Coal Products,import,550
+324199 All Other Petroleum And Coal Products,export,551
+324199 All Other Petroleum And Coal Products,import,552
+325 Chemicals,export,553
+325 Chemicals,import,554
+3251 Basic Chemicals,export,555
+3251 Basic Chemicals,import,556
+32511 Petrochemicals,export,557
+32511 Petrochemicals,import,558
+325110 Petrochemicals,export,559
+325110 Petrochemicals,import,560
+32512 Industrial Gases,export,561
+32512 Industrial Gases,import,562
+325120 Industrial Gases,export,563
+325120 Industrial Gases,import,564
+32513 Synthetic Dyes & Pigments,export,565
+32513 Synthetic Dyes & Pigments,import,566
+325130 Synthetic  Dyes & Pigments,export,567
+325130 Synthetic  Dyes & Pigments,import,568
+32518 Other Basic Inorganic Chemicals,export,569
+32518 Other Basic Inorganic Chemicals,import,570
+325180 All Other Basic Inorganic Chemicals,export,571
+325180 All Other Basic Inorganic Chemicals,import,572
+32519 Other Basic Organic Chemicals,export,573
+32519 Other Basic Organic Chemicals,import,574
+325193 Ethyl Alcohols,export,575
+325193 Ethyl Alcohols,import,576
+"325194 Cyclic Crude & Intermediate, & Gum & Wood Chemical",export,577
+"325194 Cyclic Crude & Intermediate, & Gum & Wood Chemical",import,578
+325199 All Other Basic Organic Chemicals,export,579
+325199 All Other Basic Organic Chemicals,import,580
+"3252 Resin, Syn Rubber, Artf & Syn Fibers/fil",export,581
+"3252 Resin, Syn Rubber, Artf & Syn Fibers/fil",import,582
+32521 Resin & Synthetic Rubbers,export,583
+32521 Resin & Synthetic Rubbers,import,584
+325211 Plastics Materials & Resins,export,585
+325211 Plastics Materials & Resins,import,586
+325212 Synthetic Rubber (vulcanizable Elastomers),export,587
+325212 Synthetic Rubber (vulcanizable Elastomers),import,588
+32522 Artificial & Synthetic Fibers & Filaments,export,589
+32522 Artificial & Synthetic Fibers & Filaments,import,590
+325220 Artificial And Synthetic Fibers And Filaments,export,591
+325220 Artificial And Synthetic Fibers And Filaments,import,592
+"3253 Pesticides, Fertilizers & Oth Agri Chemicals",export,593
+"3253 Pesticides, Fertilizers & Oth Agri Chemicals",import,594
+32531 Fertilizers,export,595
+32531 Fertilizers,import,596
+325311 Nitrogenous Fertilizers,export,597
+325311 Nitrogenous Fertilizers,import,598
+325312 Phosphatic Fertilizers,export,599
+325312 Phosphatic Fertilizers,import,600
+32532 Pesticides & Other Agricultural Chemicals,export,601
+32532 Pesticides & Other Agricultural Chemicals,import,602
+325320 Pesticides & Other Agricultural Chemicals,export,603
+325320 Pesticides & Other Agricultural Chemicals,import,604
+3254 Pharmaceuticals & Medicines,export,605
+3254 Pharmaceuticals & Medicines,import,606
+32541 Pharmaceuticals & Medicines,export,607
+32541 Pharmaceuticals & Medicines,import,608
+325411 Medicinal & Botanical Drugs & Vitamins,export,609
+325411 Medicinal & Botanical Drugs & Vitamins,import,610
+325412 Pharmaceutical Preparations,export,611
+325412 Pharmaceutical Preparations,import,612
+325413 In-vitro Diagnostic Substance,export,613
+325413 In-vitro Diagnostic Substance,import,614
+325414 Biological Products (exc Diagnostic),export,615
+325414 Biological Products (exc Diagnostic),import,616
+"3255 Paints, Coatings & Adhesives",export,617
+"3255 Paints, Coatings & Adhesives",import,618
+32551 Paints & Coatings,export,619
+32551 Paints & Coatings,import,620
+325510 Paints & Coatings,export,621
+325510 Paints & Coatings,import,622
+32552 Adhesives,export,623
+32552 Adhesives,import,624
+325520 Adhesives,export,625
+325520 Adhesives,import,626
+"3256 Soaps, Cleaning Compounds & Toilet Preparations",export,627
+"3256 Soaps, Cleaning Compounds & Toilet Preparations",import,628
+32561 Soaps & Cleaning Compounds,export,629
+32561 Soaps & Cleaning Compounds,import,630
+325611 Soaps & Other Detergents,export,631
+325611 Soaps & Other Detergents,import,632
+325612 Polishes & Other Sanitation Goods,export,633
+325612 Polishes & Other Sanitation Goods,import,634
+325613 Surface Active Agents,export,635
+325613 Surface Active Agents,import,636
+"32562 Perfumes, Makeups & Other Toiletries",export,637
+"32562 Perfumes, Makeups & Other Toiletries",import,638
+"325620 Perfumes, Makeups & Other Toiletries",export,639
+"325620 Perfumes, Makeups & Other Toiletries",import,640
+3259 Other Chemical Products & Preparations,export,641
+3259 Other Chemical Products & Preparations,import,642
+32591 Printing Inks,export,643
+32591 Printing Inks,import,644
+325910 Printing Inks,export,645
+325910 Printing Inks,import,646
+32592 Explosives & Accessories,export,647
+32592 Explosives & Accessories,import,648
+325920 Explosives & Accessories,export,649
+325920 Explosives & Accessories,import,650
+32599 All Other Chemical Products & Preparations,export,651
+32599 All Other Chemical Products & Preparations,import,652
+"325992 Photo Films, Papers, Plates & Chemicals",export,653
+"325992 Photo Films, Papers, Plates & Chemicals",import,654
+325998 All Oth Misc Chem Products & Preps (incl Natural),export,655
+325998 All Oth Misc Chem Products & Preps (incl Natural),import,656
+326 Plastics & Rubber Products,export,657
+326 Plastics & Rubber Products,import,658
+3261 Plastics Products,export,659
+3261 Plastics Products,import,660
+"32611 Plastics, Films, Sheets & Bags",export,661
+"32611 Plastics, Films, Sheets & Bags",import,662
+326111 Plastic Bag And Pouch,export,663
+326111 Plastic Bag And Pouch,import,664
+"326113 Not Rein Plastics Plates, Sheets, Etc (exc Pkg)",export,665
+"326113 Not Rein Plastics Plates, Sheets, Etc (exc Pkg)",import,666
+"32612 Plastics Pipes, Pipe Fittings & Profile Shapes",export,667
+"32612 Plastics Pipes, Pipe Fittings & Profile Shapes",import,668
+"326121 Plastics Rods, Sticks & Profile Shapes",export,669
+"326121 Plastics Rods, Sticks & Profile Shapes",import,670
+"326122 Plastics Tubes, Hoses, Pipes & Pipe Fittings",export,671
+"326122 Plastics Tubes, Hoses, Pipes & Pipe Fittings",import,672
+32616 Plastics Bottles,export,673
+32616 Plastics Bottles,import,674
+326160 Plastics Bottles,export,675
+326160 Plastics Bottles,import,676
+32619 Other Plastics Products,export,677
+32619 Other Plastics Products,import,678
+326191 Plastics Plumbing Fixtures,export,679
+326191 Plastics Plumbing Fixtures,import,680
+326199 All Other Plastics Products,export,681
+326199 All Other Plastics Products,import,682
+3262 Rubber Products,export,683
+3262 Rubber Products,import,684
+32621 Tires,export,685
+32621 Tires,import,686
+326211 Tires And Tire Parts (except Retreadings),export,687
+326211 Tires And Tire Parts (except Retreadings),import,688
+326212 Tire Retreadings,export,689
+326212 Tire Retreadings,import,690
+32622 Rubber & Plastics Hoses & Belting,export,691
+32622 Rubber & Plastics Hoses & Belting,import,692
+326220 Rubber & Plastics Hoses & Belting,export,693
+326220 Rubber & Plastics Hoses & Belting,import,694
+32629 Other Rubber Products,export,695
+32629 Other Rubber Products,import,696
+326291 Rubber Products For Mechanical Use,export,697
+326291 Rubber Products For Mechanical Use,import,698
+326299 Other Rubber Products,export,699
+326299 Other Rubber Products,import,700
+327 Nonmetallic Mineral Products,export,701
+327 Nonmetallic Mineral Products,import,702
+3271 Clay & Refractory Products,export,703
+3271 Clay & Refractory Products,import,704
+"32711 Pottery, Ceramics & Plumbing Fixtures",export,705
+"32711 Pottery, Ceramics & Plumbing Fixtures",import,706
+"327110 Pottery, Ceramics, And Plumbing Fixtures",export,707
+"327110 Pottery, Ceramics, And Plumbing Fixtures",import,708
+32712 Clay & Refractory Building Materials,export,709
+32712 Clay & Refractory Building Materials,import,710
+327120 Clay Building Materials And Refractories,export,711
+327120 Clay Building Materials And Refractories,import,712
+3272 Glass & Glass Products,export,713
+3272 Glass & Glass Products,import,714
+32721 Glass & Glass Products,export,715
+32721 Glass & Glass Products,import,716
+"327211 Drawn/blown, Float & Flat Glass",export,717
+"327211 Drawn/blown, Float & Flat Glass",import,718
+327212 Other Pressed & Blown Glass & Glassware,export,719
+327212 Other Pressed & Blown Glass & Glassware,import,720
+327213 Glass Containers,export,721
+327213 Glass Containers,import,722
+"327215 Glass Products, Nesoi",export,723
+"327215 Glass Products, Nesoi",import,724
+3273 Cement & Concrete Products,export,725
+3273 Cement & Concrete Products,import,726
+32731 Cements,export,727
+32731 Cements,import,728
+327310 Cements,export,729
+327310 Cements,import,730
+32733 Concrete Bricks & Blocks,export,731
+32733 Concrete Bricks & Blocks,import,732
+327331 Concrete Bricks & Blocks,export,733
+327331 Concrete Bricks & Blocks,import,734
+32739 Other Concrete Products,export,735
+32739 Other Concrete Products,import,736
+327390 Other Concrete Products,export,737
+327390 Other Concrete Products,import,738
+3274 Lime & Gypsum Products,export,739
+3274 Lime & Gypsum Products,import,740
+32741 Lime & Calcined Dolomite,export,741
+32741 Lime & Calcined Dolomite,import,742
+327410 Lime & Calcined Dolomite,export,743
+327410 Lime & Calcined Dolomite,import,744
+32742 Gypsum Products,export,745
+32742 Gypsum Products,import,746
+327420 Gypsum Products,export,747
+327420 Gypsum Products,import,748
+3279 Other Nonmetallic Mineral Products,export,749
+3279 Other Nonmetallic Mineral Products,import,750
+32791 Abrasive Products,export,751
+32791 Abrasive Products,import,752
+327910 Abrasive Products,export,753
+327910 Abrasive Products,import,754
+32799 All Other Nonmetallic Mineral Products,export,755
+32799 All Other Nonmetallic Mineral Products,import,756
+327991 Cut Stone & Stone Products,export,757
+327991 Cut Stone & Stone Products,import,758
+327992 Ground Or Treated Mineral & Earth,export,759
+327992 Ground Or Treated Mineral & Earth,import,760
+327993 Mineral Wool & Glass Fibers,export,761
+327993 Mineral Wool & Glass Fibers,import,762
+327999 All Oth Misc Nonmetallic Mineral Products,export,763
+327999 All Oth Misc Nonmetallic Mineral Products,import,764
+331 Primary Metal Mfg,export,765
+331 Primary Metal Mfg,import,766
+3311 Iron & Steel & Ferroalloy,export,767
+3311 Iron & Steel & Ferroalloy,import,768
+33111 Iron And Steel And Ferroalloy Steel Products,export,769
+33111 Iron And Steel And Ferroalloy Steel Products,import,770
+331110 Iron And Steel And Ferroalloy Steel  Products,export,771
+331110 Iron And Steel And Ferroalloy Steel  Products,import,772
+3312 Steel Products From Purchased Steel,export,773
+3312 Steel Products From Purchased Steel,import,774
+33122 Rolling & Drawing Of Purchased Steel,export,775
+33122 Rolling & Drawing Of Purchased Steel,import,776
+331221 Rolled Steel Shape,export,777
+331221 Rolled Steel Shape,import,778
+331222 Steel Wire Drawing,export,779
+331222 Steel Wire Drawing,import,780
+3313 Alumina & Aluminum  & Processing,export,781
+3313 Alumina & Aluminum  & Processing,import,782
+33131 Alumina & Aluminum  & Processing,export,783
+33131 Alumina & Aluminum  & Processing,import,784
+331313 Alumina Refined And Primary Aluminum,export,785
+331313 Alumina Refined And Primary Aluminum,import,786
+331314 Secondary Smelting & Alloying Of Aluminum,export,787
+331314 Secondary Smelting & Alloying Of Aluminum,import,788
+"331315 Aluminum Sheets, Plates & Foils",export,789
+"331315 Aluminum Sheets, Plates & Foils",import,790
+"331318 Other Aluminum Rolling, Drawing, And Extruding",export,791
+"331318 Other Aluminum Rolling, Drawing, And Extruding",import,792
+3314 Nonferrous (exc Alum) & Processing,export,793
+3314 Nonferrous (exc Alum) & Processing,import,794
+33141 Nonferrous (exc Aluminum) Smelting & Refining,export,795
+33141 Nonferrous (exc Aluminum) Smelting & Refining,import,796
+"331410 Nonferrous Metal (excpt Aluminum)  Smeltd, Refined",export,797
+"331410 Nonferrous Metal (excpt Aluminum)  Smeltd, Refined",import,798
+33142 Copper Rolling/drawing/extruding & Alloying,export,799
+33142 Copper Rolling/drawing/extruding & Alloying,import,800
+"331420 Copper Rolling, Drawing & Extruding, & Alloying",export,801
+"331420 Copper Rolling, Drawing & Extruding, & Alloying",import,802
+33149 Other Nonferrous Roll/draw/extruding/alloying,export,803
+33149 Other Nonferrous Roll/draw/extruding/alloying,import,804
+331491 Other Nonferrous Metals Roll/draw/extruding,export,805
+331491 Other Nonferrous Metals Roll/draw/extruding,import,806
+331492 Other Nonferrous Secondary Smelt/refine/alloying,export,807
+331492 Other Nonferrous Secondary Smelt/refine/alloying,import,808
+3315 Foundries,export,809
+3315 Foundries,import,810
+33151 Ferrous Metal Foundries,export,811
+33151 Ferrous Metal Foundries,import,812
+331511 Iron Foundries,export,813
+331511 Iron Foundries,import,814
+33152 Nonferrous Metal,export,815
+33152 Nonferrous Metal,import,816
+331523 Nonferrous Metal Die-casts,export,817
+331523 Nonferrous Metal Die-casts,import,818
+"332 Fabricated Metal Products, Nesoi",export,819
+"332 Fabricated Metal Products, Nesoi",import,820
+3321 Crowns/closures/seals & Other Packing Accessories,export,821
+3321 Crowns/closures/seals & Other Packing Accessories,import,822
+33211 Crowns/closures/seals & Other Packing Accessories,export,823
+33211 Crowns/closures/seals & Other Packing Accessories,import,824
+332111 Iron And Steel Forged,export,825
+332111 Iron And Steel Forged,import,826
+332112 Nonferrous Forged,export,827
+332112 Nonferrous Forged,import,828
+"332119 Metal Crowns, Closure,&other Metal Stamp (ex Auto)",export,829
+"332119 Metal Crowns, Closure,&other Metal Stamp (ex Auto)",import,830
+3322 Cutlery & Handtools,export,831
+3322 Cutlery & Handtools,import,832
+33221 Cutlery & Handtools,export,833
+33221 Cutlery & Handtools,import,834
+"332215 Metal Kitchen Cookware, Uten, Cut,&flat(exc Preci)",export,835
+"332215 Metal Kitchen Cookware, Uten, Cut,&flat(exc Preci)",import,836
+332216 Saw Blades & Handtools,export,837
+332216 Saw Blades & Handtools,import,838
+3323 Architectural & Structural Metals,export,839
+3323 Architectural & Structural Metals,import,840
+33231 Plate Work & Fabricated Structural Products,export,841
+33231 Plate Work & Fabricated Structural Products,import,842
+332311 Prefab Metal Buildings & Components,export,843
+332311 Prefab Metal Buildings & Components,import,844
+332312 Fabricated Structural Metals,export,845
+332312 Fabricated Structural Metals,import,846
+332313 Other Metal Container,export,847
+332313 Other Metal Container,import,848
+33232 Ornamental & Architectural Metal Products,export,849
+33232 Ornamental & Architectural Metal Products,import,850
+332321 Metal Windows & Doors,export,851
+332321 Metal Windows & Doors,import,852
+332322 Sheet Metal Works,export,853
+332322 Sheet Metal Works,import,854
+332323 Ornamental & Architectural Metal Works,export,855
+332323 Ornamental & Architectural Metal Works,import,856
+"3324 Boilers, Tanks & Shipping Containers",export,857
+"3324 Boilers, Tanks & Shipping Containers",import,858
+33241 Power Boilers & Heat Exchangers,export,859
+33241 Power Boilers & Heat Exchangers,import,860
+332410 Power Boilers & Heat Exchangers,export,861
+332410 Power Boilers & Heat Exchangers,import,862
+33242 Metal Tanks (heavy Gauge),export,863
+33242 Metal Tanks (heavy Gauge),import,864
+332420 Metal Tanks (heavy Gauge),export,865
+332420 Metal Tanks (heavy Gauge),import,866
+33243 Light Gauge Metal Containers,export,867
+33243 Light Gauge Metal Containers,import,868
+332431 Metal Cans,export,869
+332431 Metal Cans,import,870
+332439 Other Metal Containers,export,871
+332439 Other Metal Containers,import,872
+3325 Hardware,export,873
+3325 Hardware,import,874
+33251 Hardware,export,875
+33251 Hardware,import,876
+332510 Hardware,export,877
+332510 Hardware,import,878
+3326 Springs & Wire Products,export,879
+3326 Springs & Wire Products,import,880
+33261 Springs & Wire Products,export,881
+33261 Springs & Wire Products,import,882
+332613 Springs,export,883
+332613 Springs,import,884
+332618 Other Fabricated Wire Products,export,885
+332618 Other Fabricated Wire Products,import,886
+3327 Bolts/nuts/scrws/rivts/washrs & Other Turned Prods,export,887
+3327 Bolts/nuts/scrws/rivts/washrs & Other Turned Prods,import,888
+33272 Bolts/nuts/scrws/rivts/washrs & Other Turned Prods,export,889
+33272 Bolts/nuts/scrws/rivts/washrs & Other Turned Prods,import,890
+332722 Bolts/nuts/scrws/rivts/washrs & Other Turned Prods,export,891
+332722 Bolts/nuts/scrws/rivts/washrs & Other Turned Prods,import,892
+3329 Other Fabricated Metal Products,export,893
+3329 Other Fabricated Metal Products,import,894
+33291 Metal Valves,export,895
+33291 Metal Valves,import,896
+332911 Industrial Valves,export,897
+332911 Industrial Valves,import,898
+332912 Fluid Power Valves & Hose Fittings,export,899
+332912 Fluid Power Valves & Hose Fittings,import,900
+332913 Plumbing Fixtures Fittings & Trim,export,901
+332913 Plumbing Fixtures Fittings & Trim,import,902
+332919 Other Metal Valves & Pipe Fittings,export,903
+332919 Other Metal Valves & Pipe Fittings,import,904
+33299 Other Fabricated Metal Products,export,905
+33299 Other Fabricated Metal Products,import,906
+332991 Ball & Roller Bearings,export,907
+332991 Ball & Roller Bearings,import,908
+332992 Small Arms Ammunition,export,909
+332992 Small Arms Ammunition,import,910
+332993 Ammunition (except Small Arms),export,911
+332993 Ammunition (except Small Arms),import,912
+332994 Small Arms,export,913
+332994 Small Arms,import,914
+332999 Other Miscellaneous Fabricated Metal Products,export,915
+332999 Other Miscellaneous Fabricated Metal Products,import,916
+"333 Machinery, Except Electrical",export,917
+"333 Machinery, Except Electrical",import,918
+3331 Ag & Construction &  Machinery,export,919
+3331 Ag & Construction &  Machinery,import,920
+33311 Agricultural Implements,export,921
+33311 Agricultural Implements,import,922
+333111 Farm Machinery & Equipment,export,923
+333111 Farm Machinery & Equipment,import,924
+333112 Lawn And Garden Tractor And Home Lawn And Garden E,export,925
+333112 Lawn And Garden Tractor And Home Lawn And Garden E,import,926
+33312 Construction Machinery,export,927
+33312 Construction Machinery,import,928
+333120 Construction Machinery,export,929
+333120 Construction Machinery,import,930
+33313 Mining & Oil & Gas Field Machinery,export,931
+33313 Mining & Oil & Gas Field Machinery,import,932
+333131 Mining Machinery & Equipment,export,933
+333131 Mining Machinery & Equipment,import,934
+333132 Oil & Gas Field Machinery & Equipment,export,935
+333132 Oil & Gas Field Machinery & Equipment,import,936
+3332 Industrial Machinery,export,937
+3332 Industrial Machinery,import,938
+33324 Industrial Machinery,export,939
+33324 Industrial Machinery,import,940
+333241 Food Product Machinery,export,941
+333241 Food Product Machinery,import,942
+333242 Semiconductor Machinery,export,943
+333242 Semiconductor Machinery,import,944
+"333243 Sawmill, Woodworking, & Paper Machinery",export,945
+"333243 Sawmill, Woodworking, & Paper Machinery",import,946
+3333 Commercial & Service Industry Machinery,export,947
+3333 Commercial & Service Industry Machinery,import,948
+33331 Commercial & Service Industry Machinery,export,949
+33331 Commercial & Service Industry Machinery,import,950
+3334 Hvac & Commercial Refrigeration Equipment,export,951
+3334 Hvac & Commercial Refrigeration Equipment,import,952
+33341 Hvac & Commercial Refrigeration Equipment,export,953
+33341 Hvac & Commercial Refrigeration Equipment,import,954
+333413 Indust & Comm Fan & Blower &air Purification Equip,export,955
+333413 Indust & Comm Fan & Blower &air Purification Equip,import,956
+333414 Heating Equipment (exc Warm Air Furnaces),export,957
+333414 Heating Equipment (exc Warm Air Furnaces),import,958
+333415 Ac/warm Air Htg & Commercial Refrig Equip,export,959
+333415 Ac/warm Air Htg & Commercial Refrig Equip,import,960
+3335 Metalworking Machinery,export,961
+3335 Metalworking Machinery,import,962
+33351 Metalworking Machinery,export,963
+33351 Metalworking Machinery,import,964
+333511 Industrial Molds,export,965
+333511 Industrial Molds,import,966
+"333514 Special Dies/tools, Die Sets, Jigs & Fixtures",export,967
+"333514 Special Dies/tools, Die Sets, Jigs & Fixtures",import,968
+333515 Cutting Tools & Machine Tool Accessories,export,969
+333515 Cutting Tools & Machine Tool Accessories,import,970
+333517 Machine Tools,export,971
+333517 Machine Tools,import,972
+333519 Rolling Mill & Other Metalworking Machinery,export,973
+333519 Rolling Mill & Other Metalworking Machinery,import,974
+"3336 Engines, Turbines & Power Transmsn Equip",export,975
+"3336 Engines, Turbines & Power Transmsn Equip",import,976
+"33361 Engines, Turbines & Power Transmsn Equip",export,977
+"33361 Engines, Turbines & Power Transmsn Equip",import,978
+333611 Turbines & Turbine Generator Sets,export,979
+333611 Turbines & Turbine Generator Sets,import,980
+333612 Speed Changers/industrial High-speed Drives/gears,export,981
+333612 Speed Changers/industrial High-speed Drives/gears,import,982
+333613 Mechanical Power Transmission Equipment,export,983
+333613 Mechanical Power Transmission Equipment,import,984
+333618 Other Engine Equipment,export,985
+333618 Other Engine Equipment,import,986
+3339 Other General Purpose Machinery,export,987
+3339 Other General Purpose Machinery,import,988
+33391 Pumps & Compressors,export,989
+33391 Pumps & Compressors,import,990
+333912 Air & Gas Compressors,export,991
+333912 Air & Gas Compressors,import,992
+33392 Material Handling Equipment,export,993
+33392 Material Handling Equipment,import,994
+333921 Elevators & Moving Stairways,export,995
+333921 Elevators & Moving Stairways,import,996
+333922 Conveyors & Conveying Equipment,export,997
+333922 Conveyors & Conveying Equipment,import,998
+"333923 Overhead Cranes, Hoists & Monorail Systems",export,999
+"333923 Overhead Cranes, Hoists & Monorail Systems",import,1000
+333924 Indust. Trucks/tractors/trailers/stacker Machinery,export,1001
+333924 Indust. Trucks/tractors/trailers/stacker Machinery,import,1002
+33399 Other General Purpose Machinery,export,1003
+33399 Other General Purpose Machinery,import,1004
+333991 Power-driven Handtools,export,1005
+333991 Power-driven Handtools,import,1006
+333992 Welding & Soldering Equipment,export,1007
+333992 Welding & Soldering Equipment,import,1008
+333993 Packaging Machinery,export,1009
+333993 Packaging Machinery,import,1010
+333994 Industrial Furnaces & Ovens,export,1011
+333994 Industrial Furnaces & Ovens,import,1012
+333995 Fluid Power Cylinders & Actuators,export,1013
+333995 Fluid Power Cylinders & Actuators,import,1014
+333996 Fluid Power Pumps & Motors,export,1015
+333996 Fluid Power Pumps & Motors,import,1016
+334 Computer & Electronic Products,export,1017
+334 Computer & Electronic Products,import,1018
+3341 Computer Equipment,export,1019
+3341 Computer Equipment,import,1020
+33411 Computer Equipment,export,1021
+33411 Computer Equipment,import,1022
+334111 Electronic Computers,export,1023
+334111 Electronic Computers,import,1024
+334112 Computer Storage Devices,export,1025
+334112 Computer Storage Devices,import,1026
+334118 Computer Terminals &other Comput Peripheral Equip,export,1027
+334118 Computer Terminals &other Comput Peripheral Equip,import,1028
+3342 Communications Equipment,export,1029
+3342 Communications Equipment,import,1030
+33421 Telephone Apparatus,export,1031
+33421 Telephone Apparatus,import,1032
+334210 Telephone Apparatus,export,1033
+334210 Telephone Apparatus,import,1034
+33422 Radio/tv Broadcast & Wireless Communication Equip,export,1035
+33422 Radio/tv Broadcast & Wireless Communication Equip,import,1036
+334220 Radio/tv Broadcast & Wireless Communication Equip,export,1037
+334220 Radio/tv Broadcast & Wireless Communication Equip,import,1038
+33429 Other Communications Equipment,export,1039
+33429 Other Communications Equipment,import,1040
+334290 Other Communications Equipment,export,1041
+334290 Other Communications Equipment,import,1042
+3343 Audio & Video Equipment,export,1043
+3343 Audio & Video Equipment,import,1044
+33431 Audio & Video Equipment,export,1045
+33431 Audio & Video Equipment,import,1046
+334310 Audio & Video Equipment,export,1047
+334310 Audio & Video Equipment,import,1048
+3344 Semiconductors & Other Electronic Components,export,1049
+3344 Semiconductors & Other Electronic Components,import,1050
+33441 Semiconductors & Other Electronic Components,export,1051
+33441 Semiconductors & Other Electronic Components,import,1052
+334412 Printed Circuits,export,1053
+334412 Printed Circuits,import,1054
+334413 Semiconductors & Related Devices,export,1055
+334413 Semiconductors & Related Devices,import,1056
+"334416 Capacitors, Resistors, Coils, Trnsfors,&oth Induct",export,1057
+"334416 Capacitors, Resistors, Coils, Trnsfors,&oth Induct",import,1058
+"334417 Electronic Connectors, Including Parts",export,1059
+"334417 Electronic Connectors, Including Parts",import,1060
+334418 Printed Circuit Assemblies (electronic Assemblies),export,1061
+334418 Printed Circuit Assemblies (electronic Assemblies),import,1062
+334419 Other Electronic Components,export,1063
+334419 Other Electronic Components,import,1064
+3345 Navigational/measuring/medical/control Instrument,export,1065
+3345 Navigational/measuring/medical/control Instrument,import,1066
+33451 Navigational/measuring/medical/control Instruments,export,1067
+33451 Navigational/measuring/medical/control Instruments,import,1068
+334510 Electromedical Apparatus,export,1069
+334510 Electromedical Apparatus,import,1070
+"334511 Search, Detection & Navigation Instruments",export,1071
+"334511 Search, Detection & Navigation Instruments",import,1072
+334512 Automatic Environmental Controls,export,1073
+334512 Automatic Environmental Controls,import,1074
+334513 Industrial Process Controls,export,1075
+334513 Industrial Process Controls,import,1076
+334514 Total Fluid Meters & Counting Devices,export,1077
+334514 Total Fluid Meters & Counting Devices,import,1078
+334515 Electricity Measuring/testing Instruments,export,1079
+334515 Electricity Measuring/testing Instruments,import,1080
+334516 Analytical Laboratory Instruments,export,1081
+334516 Analytical Laboratory Instruments,import,1082
+334517 Irradiation Apparatus,export,1083
+334517 Irradiation Apparatus,import,1084
+334519 Other Measuring & Controlling Devices,export,1085
+334519 Other Measuring & Controlling Devices,import,1086
+3346 Magnetic & Optical Media,export,1087
+3346 Magnetic & Optical Media,import,1088
+33461 Magnetic & Optical Media,export,1089
+33461 Magnetic & Optical Media,import,1090
+"335 Electrical Equipment, Appliances & Components",export,1091
+"335 Electrical Equipment, Appliances & Components",import,1092
+3351 Electric Lighting Equipment,export,1093
+3351 Electric Lighting Equipment,import,1094
+"3352 Household Appliances And Misc Machines, Nesoi",export,1095
+"3352 Household Appliances And Misc Machines, Nesoi",import,1096
+33521 Small Electrical Appliances,export,1097
+33521 Small Electrical Appliances,import,1098
+335210 Small Electrical Appliances,export,1099
+335210 Small Electrical Appliances,import,1100
+33522 Major Appliances,export,1101
+33522 Major Appliances,import,1102
+3353 Electrical Equipment,export,1103
+3353 Electrical Equipment,import,1104
+33531 Electrical Equipment,export,1105
+33531 Electrical Equipment,import,1106
+335311 Power/distribution/specialty Transformers,export,1107
+335311 Power/distribution/specialty Transformers,import,1108
+335312 Motors & Generators,export,1109
+335312 Motors & Generators,import,1110
+335313 Switchgear & Switchboard Apparatus,export,1111
+335313 Switchgear & Switchboard Apparatus,import,1112
+335314 Relays & Industrial Controls,export,1113
+335314 Relays & Industrial Controls,import,1114
+"3359 Electrical Equipment & Components, Nesoi",export,1115
+"3359 Electrical Equipment & Components, Nesoi",import,1116
+33591 Batteries,export,1117
+33591 Batteries,import,1118
+33592 Communication & Energy Wires & Cables,export,1119
+33592 Communication & Energy Wires & Cables,import,1120
+335921 Fiber Optic Cable,export,1121
+335921 Fiber Optic Cable,import,1122
+"335929 Communication & Energy Wire, Nesoi",export,1123
+"335929 Communication & Energy Wire, Nesoi",import,1124
+33593 Wiring Devices,export,1125
+33593 Wiring Devices,import,1126
+335931 Current-carrying Wiring Devices,export,1127
+335931 Current-carrying Wiring Devices,import,1128
+335932 Noncurrent-carrying Wiring Devices,export,1129
+335932 Noncurrent-carrying Wiring Devices,import,1130
+"33599 Electrical Equipment & Components, Nesoi",export,1131
+"33599 Electrical Equipment & Components, Nesoi",import,1132
+335991 Carbon & Graphite Products,export,1133
+335991 Carbon & Graphite Products,import,1134
+"335999 Misc Electrical Equipment & Components, Nesoi",export,1135
+"335999 Misc Electrical Equipment & Components, Nesoi",import,1136
+336 Transportation Equipment,export,1137
+336 Transportation Equipment,import,1138
+3361 Motor Vehicles,export,1139
+3361 Motor Vehicles,import,1140
+"33611 Autos & Light Duty Motor Vehicles, Incl Chassis",export,1141
+"33611 Autos & Light Duty Motor Vehicles, Incl Chassis",import,1142
+33612 Heavy Duty Trucks & Chassis,export,1143
+33612 Heavy Duty Trucks & Chassis,import,1144
+336120 Heavy Duty Trucks & Chassis,export,1145
+336120 Heavy Duty Trucks & Chassis,import,1146
+3362 Motor Vehicle Bodies & Trailers,export,1147
+3362 Motor Vehicle Bodies & Trailers,import,1148
+33621 Motor Vehicle Bodies & Trailers,export,1149
+33621 Motor Vehicle Bodies & Trailers,import,1150
+336211 Motor Vehicle Bodies,export,1151
+336211 Motor Vehicle Bodies,import,1152
+336212 Truck Trailers,export,1153
+336212 Truck Trailers,import,1154
+336213 Motor Homes,export,1155
+336213 Motor Homes,import,1156
+336214 Transportation Equip Nesoi Incl Trailers & Campers,export,1157
+336214 Transportation Equip Nesoi Incl Trailers & Campers,import,1158
+3363 Motor Vehicle Parts,export,1159
+3363 Motor Vehicle Parts,import,1160
+33631 Motor Vehicle Gasoline Engines & Engine Parts,export,1161
+33631 Motor Vehicle Gasoline Engines & Engine Parts,import,1162
+336310 Motor Vehicle Gasoline Engines & Engine Parts,export,1163
+336310 Motor Vehicle Gasoline Engines & Engine Parts,import,1164
+33632 Motor Vehicle Electrical & Electronic Equipment,export,1165
+33632 Motor Vehicle Electrical & Electronic Equipment,import,1166
+"336320 Motor Vehicle Electrical & Electronic Equip, Nesoi",export,1167
+"336320 Motor Vehicle Electrical & Electronic Equip, Nesoi",import,1168
+33633 Motor Vehicle Steering & Suspension Parts,export,1169
+33633 Motor Vehicle Steering & Suspension Parts,import,1170
+336330 Motor Vehicle Steering & Suspension Parts,export,1171
+336330 Motor Vehicle Steering & Suspension Parts,import,1172
+33634 Motor Vehicle Brake Systems,export,1173
+33634 Motor Vehicle Brake Systems,import,1174
+336340 Motor Vehicle Brake Systems,export,1175
+336340 Motor Vehicle Brake Systems,import,1176
+33635 Motor Vehicle Transmission & Power Train Parts,export,1177
+33635 Motor Vehicle Transmission & Power Train Parts,import,1178
+336350 Motor Vehicle Transmission & Power Train Parts,export,1179
+336350 Motor Vehicle Transmission & Power Train Parts,import,1180
+33636 Motor Vehicle Seating & Interior Trim,export,1181
+33636 Motor Vehicle Seating & Interior Trim,import,1182
+336360 Motor Vehicle Seating & Interior Trim,export,1183
+336360 Motor Vehicle Seating & Interior Trim,import,1184
+33637 Motor Vehicle Metal Stampings,export,1185
+33637 Motor Vehicle Metal Stampings,import,1186
+336370 Motor Vehicle Metal Stampings,export,1187
+336370 Motor Vehicle Metal Stampings,import,1188
+33639 Other Motor Vehicle Parts,export,1189
+33639 Other Motor Vehicle Parts,import,1190
+336390 Other Motor Vehicle Parts,export,1191
+336390 Other Motor Vehicle Parts,import,1192
+3364 Aerospace Products & Parts,export,1193
+3364 Aerospace Products & Parts,import,1194
+33641 Aerospace Products & Parts,export,1195
+33641 Aerospace Products & Parts,import,1196
+336411 Aircraft,export,1197
+336411 Aircraft,import,1198
+336412 Aircraft Engines & Engine Parts,export,1199
+336412 Aircraft Engines & Engine Parts,import,1200
+"336413 Aircraft Parts & Auxiliary Equipment, Nesoi",export,1201
+"336413 Aircraft Parts & Auxiliary Equipment, Nesoi",import,1202
+336415 Missile/space Veh Propulsion Units & Parts,export,1203
+336415 Missile/space Veh Propulsion Units & Parts,import,1204
+"336419 Missile/space Veh Parts & Auxiliary Equip, Nesoi",export,1205
+"336419 Missile/space Veh Parts & Auxiliary Equip, Nesoi",import,1206
+3365 Railroad Rolling Stock,export,1207
+3365 Railroad Rolling Stock,import,1208
+33651 Railroad Rolling Stock,export,1209
+33651 Railroad Rolling Stock,import,1210
+336510 Railroad Rolling Stock,export,1211
+336510 Railroad Rolling Stock,import,1212
+3366 Ships & Boats,export,1213
+3366 Ships & Boats,import,1214
+33661 Ships & Boats,export,1215
+33661 Ships & Boats,import,1216
+336611 Ships,export,1217
+336611 Ships,import,1218
+336612 Boats,export,1219
+336612 Boats,import,1220
+"3369 Transportation Equipment, Nesoi",export,1221
+"3369 Transportation Equipment, Nesoi",import,1222
+"33699 Transportation Equipment, Nesoi",export,1223
+"33699 Transportation Equipment, Nesoi",import,1224
+"336991 Motorcycles, Bicycles & Parts",export,1225
+"336991 Motorcycles, Bicycles & Parts",import,1226
+"336992 Military Armored Vehicle, Tanks & Tank Components",export,1227
+"336992 Military Armored Vehicle, Tanks & Tank Components",import,1228
+336999 All Other Transportation Equipment,export,1229
+336999 All Other Transportation Equipment,import,1230
+337 Furniture & Fixtures,export,1231
+337 Furniture & Fixtures,import,1232
+3371 Household & Institutional Furn & Kitchen Cabinets,export,1233
+3371 Household & Institutional Furn & Kitchen Cabinets,import,1234
+33711 Wood Kitchen Cabinets & Countertops,export,1235
+33711 Wood Kitchen Cabinets & Countertops,import,1236
+337110 Wood Kitchen Cabinets & Countertops,export,1237
+337110 Wood Kitchen Cabinets & Countertops,import,1238
+33712 Household & Institutional Furniture,export,1239
+33712 Household & Institutional Furniture,import,1240
+337121 Upholstered Household Furniture,export,1241
+337121 Upholstered Household Furniture,import,1242
+337122 Nonupholstered Wood Household Furniture,export,1243
+337122 Nonupholstered Wood Household Furniture,import,1244
+337127 Institutional Furniture,export,1245
+337127 Institutional Furniture,import,1246
+3372 Office Furniture (including Fixtures),export,1247
+3372 Office Furniture (including Fixtures),import,1248
+33721 Office Furniture (including Fixtures),export,1249
+33721 Office Furniture (including Fixtures),import,1250
+337211 Wood Office Furniture,export,1251
+337211 Wood Office Furniture,import,1252
+337214 Office Furniture (except Wood),export,1253
+337214 Office Furniture (except Wood),import,1254
+"337215 Showcases, Partitions, Shelvings & Lockers",export,1255
+"337215 Showcases, Partitions, Shelvings & Lockers",import,1256
+"3379 Furniture Related Products, Nesoi",export,1257
+"3379 Furniture Related Products, Nesoi",import,1258
+33791 Mattresses,export,1259
+33791 Mattresses,import,1260
+337910 Mattresses,export,1261
+337910 Mattresses,import,1262
+33792 Blinds & Shades,export,1263
+33792 Blinds & Shades,import,1264
+337920 Blinds & Shades,export,1265
+337920 Blinds & Shades,import,1266
+339 Miscellaneous Manufactured Commodities,export,1267
+339 Miscellaneous Manufactured Commodities,import,1268
+3391 Medical Equipment & Supplies,export,1269
+3391 Medical Equipment & Supplies,import,1270
+33911 Medical Equipment & Supplies,export,1271
+33911 Medical Equipment & Supplies,import,1272
+339112 Surgical & Medical Instruments,export,1273
+339112 Surgical & Medical Instruments,import,1274
+339113 Surgical Appliances & Supplies,export,1275
+339113 Surgical Appliances & Supplies,import,1276
+339114 Dental Equipment & Supplies,export,1277
+339114 Dental Equipment & Supplies,import,1278
+339115 Ophthalmic Goods,export,1279
+339115 Ophthalmic Goods,import,1280
+339116 Dental Laboratories Products,export,1281
+339116 Dental Laboratories Products,import,1282
+3399 Miscellaneous Manufactured Commodities,export,1283
+3399 Miscellaneous Manufactured Commodities,import,1284
+33991 Jewelry & Silverware,export,1285
+33991 Jewelry & Silverware,import,1286
+339910 Jewelry & Silverware,export,1287
+339910 Jewelry & Silverware,import,1288
+33992 Sporting & Athletic Goods,export,1289
+33992 Sporting & Athletic Goods,import,1290
+339920 Sporting & Athletic Goods,export,1291
+339920 Sporting & Athletic Goods,import,1292
+"33993 Dolls, Toys & Games",export,1293
+"33993 Dolls, Toys & Games",import,1294
+"339930 Dolls, Toys, And Games",export,1295
+"339930 Dolls, Toys, And Games",import,1296
+33994 Office Supplies (except Paper),export,1297
+33994 Office Supplies (except Paper),import,1298
+339940 Office Supplies (except Paper),export,1299
+339940 Office Supplies (except Paper),import,1300
+33995 Signs,export,1301
+33995 Signs,import,1302
+339950 Signs,export,1303
+339950 Signs,import,1304
+33999 Other Manufactured Commodities,export,1305
+33999 Other Manufactured Commodities,import,1306
+"339991 Gaskets, Packing & Sealing Devices",export,1307
+"339991 Gaskets, Packing & Sealing Devices",import,1308
+339992 Musical Instruments,export,1309
+339992 Musical Instruments,import,1310
+"339993 Fasteners, Buttons, Needles & Pins",export,1311
+"339993 Fasteners, Buttons, Needles & Pins",import,1312
+"339994 Brooms, Brushs & Mops",export,1313
+"339994 Brooms, Brushs & Mops",import,1314
+"339999 Miscellaneous Manufactured Commodities, Nesoi",export,1315
+"339999 Miscellaneous Manufactured Commodities, Nesoi",import,1316
+910 Waste And Scrap,export,1317
+910 Waste And Scrap,import,1318
+9100 Waste And Scrap,export,1319
+9100 Waste And Scrap,import,1320
+91000 Waste And Scrap,export,1321
+91000 Waste And Scrap,import,1322
+910000 Waste And Scrap,export,1323
+910000 Waste And Scrap,import,1324
+930 Used Or Second-hand Merchandise,export,1325
+930 Used Or Second-hand Merchandise,import,1326
+9300 Used Or Second-hand Merchandise,export,1327
+9300 Used Or Second-hand Merchandise,import,1328
+93000 Used Or Second-hand Merchandise,export,1329
+93000 Used Or Second-hand Merchandise,import,1330
+930000 Used Or Second-hand Merchandise,export,1331
+930000 Used Or Second-hand Merchandise,import,1332
+980 Goods Returned (exports For Canada Only),export,1333
+980 Goods Returned (exports For Canada Only),import,1334
+9800 Goods Returned (exports For Canada Only),export,1335
+9800 Goods Returned (exports For Canada Only),import,1336
+98000 Goods Returned (exports For Canada Only),export,1337
+98000 Goods Returned (exports For Canada Only),import,1338
+980000 Goods Returned (exports For Canada Only),export,1339
+980000 Goods Returned (exports For Canada Only),import,1340
+990 Other Special Classification Provisions,export,1341
+990 Other Special Classification Provisions,import,1342
+9900 Other Special Classification Provisions,export,1343
+9900 Other Special Classification Provisions,import,1344
+99000 Other Special Classification Provisions,export,1345
+99000 Other Special Classification Provisions,import,1346
+990000 Other Special Classification Provisions,export,1347
+990000 Other Special Classification Provisions,import,1348
+All Commodities,export,1349
+All Commodities,import,1350
